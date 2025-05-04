@@ -464,3 +464,12 @@ footer p {
         height: 120px;
     }
 }
+
+.member-simple-list {
+    list-style: none;
+    padding-left: 0;
+    font-size: 1.2em;
+    line-height: 2;
+    text-align: center;
+}
+
