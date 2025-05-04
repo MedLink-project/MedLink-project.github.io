@@ -466,6 +466,7 @@ footer p {
 }
 
 
+/* === member card simple style === */
 .member-cards {
     display: flex;
     gap: 20px;
@@ -499,4 +500,3 @@ footer p {
     font-size: 1.1em;
     color: #666;
 }
-
