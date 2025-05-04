@@ -473,3 +473,37 @@ footer p {
     text-align: center;
 }
 
+.member-cards {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 30px;
+}
+
+.member-card {
+    background-color: white;
+    border-radius: 20px;
+    padding: 30px 40px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.05);
+    text-align: center;
+    min-width: 220px;
+    transition: transform 0.2s;
+}
+
+.member-card:hover {
+    transform: translateY(-5px);
+}
+
+.member-name {
+    font-size: 1.3em;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: var(--text-color);
+}
+
+.member-affiliation {
+    font-size: 1.1em;
+    color: #666;
+}
+
