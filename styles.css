@@ -465,13 +465,6 @@ footer p {
     }
 }
 
-.member-simple-list {
-    list-style: none;
-    padding-left: 0;
-    font-size: 1.2em;
-    line-height: 2;
-    text-align: center;
-}
 
 .member-cards {
     display: flex;
